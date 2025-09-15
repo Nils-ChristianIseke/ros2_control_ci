@@ -1,0 +1,35 @@
+repositories:
+    remote_base:
+        type: git
+        url: git@github.com:enabl-tech/remote_base.git
+        version: main
+
+    remote_controller:
+        type: git
+        url: git@github.com:enabl-tech/remote_controller.git
+        version: main
+
+    remote_gui:
+        type: git
+        url: git@github.com:enabl-tech/remote_gui.git
+        version: devops_switch_to_vcs
+
+    remote_logger:
+        type: git
+        url: git@github.com:enabl-tech/remote_logger.git
+        version: devops_switch_to_vcs
+
+    remote_network:
+        type: git
+        url: git@github.com:enabl-tech/remote_network.git
+        version: main
+
+    fra_msg:
+        type: git
+        url: git@github.com:enabl-tech/fra_msgs
+        version: main
+
+    av_streaming_library:
+        type: git
+        url: git@github.com:enabl-tech/av_streaming_library
+        version: devops_fixcmake
